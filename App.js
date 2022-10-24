@@ -1,13 +1,5 @@
 import { useState } from 'react'
-import {
-  StyleSheet,
-  Text,
-  View,
-  Button,
-  TextInput,
-  ScrollView,
-  FlatList,
-} from 'react-native'
+import { StyleSheet, View, Button } from 'react-native'
 import uuid from 'react-native-uuid'
 import GoalInput from './components/GoalInput'
 import GoalsList from './components/GoalsList'
